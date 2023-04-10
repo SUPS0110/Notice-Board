@@ -77,6 +77,8 @@ display: flex;
     color: purple;
 }
 .add{
+    position: relative;
+    top: 5px;
     margin: 5px;
     background-color: rgb(171, 194, 224);
     width: 100px;
@@ -85,4 +87,10 @@ display: flex;
     align-items: center;
     border: 2px dotted black;
     border-radius: 10px;
+}
+.add a{
+    color: purple;
+}
+a:hover{
+    text-shadow: 2px 2px 5px rgb(245, 75, 75);
 }
